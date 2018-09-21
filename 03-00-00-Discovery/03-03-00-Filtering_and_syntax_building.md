@@ -21,7 +21,6 @@ This query will display all events that contain the „status" fields
 with a value of 500.
 
 ##Filters##
-
 The field value does not have to be a single, specific value. For
 digital fields we can specify range in the following scheme:
 
@@ -35,7 +34,6 @@ This query will return events with status fields that are in the
 range 500 to 599.
 
 ##Operators##
-
 The search language used in OP5 allows to you use logical operators
 „AND", „OR" and „NOT", which are key and necessary to build more
 complex queries.
