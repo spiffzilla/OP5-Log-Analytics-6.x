@@ -21,6 +21,7 @@ This query will display all events that contain the „status" fields
 with a value of 500.
 
 ##Filters##
+
 The field value does not have to be a single, specific value. For
 digital fields we can specify range in the following scheme:
 
