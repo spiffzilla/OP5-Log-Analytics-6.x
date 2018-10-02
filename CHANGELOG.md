@@ -1,7 +1,7 @@
 # **CHANGELOG** #
 
 # 6.0.1 #
-## Changed ##
+## Added ##
 - Functional indexess with dots .kibana, .security, .auth
 - Login module onboarded to 6.x stack
 - License module onboarded to 6.x stack
