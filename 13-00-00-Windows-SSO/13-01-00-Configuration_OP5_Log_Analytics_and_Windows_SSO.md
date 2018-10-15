@@ -39,7 +39,7 @@ The `krb5Login.conf` file should be placed on your elasticsearch node, for insta
 sudo chmod 640 /etc/elasticsearch/krb5Login.conf
 sudo chown elasticsearch: /etc/elasticsearch/krb5Login.conf
 ```
-### Append the following JVM arguments (on Elasticsearch node in */etc/sysconfig/elasticsearch*):
+### Append the following JVM arguments inside ES_JAVA_OPTS section (on Elasticsearch node in */etc/sysconfig/elasticsearch*):
 
 > -Dsun.security.krb5.debug=true -Djava.security.krb5.realm=**DEV.EXAMPLE.COM** -Djava.security.krb5.kdc=**AD_HOST_IP_ADDRESS** -Djava.security.auth.login.config=**/etc/elasticsearch/krb5Login.conf** -Djavax.security.auth.useSubjectCredsOnly=false
 
