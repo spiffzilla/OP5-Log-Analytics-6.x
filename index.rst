@@ -170,4 +170,13 @@ op5_log_analytics_6x_doc User Guide
        16-00-00-Logstash/16-01-06-Logstash-Output_to_Elasticsearch.md
        16-00-00-Logstash/16-01-07-Logstash-naemon_beat_example.md
        16-00-00-Logstash/16-01-08-Logstash-perflogs_example.md
+
+.. toctree::
+        :maxdepth: 2
+        :caption: Integrations
+
+       17-00-00-Integrations/17-01-00-Setting_up_Naemon_logs.md
+       17-00-00-Integrations/17-02-00-Sending_OP5_performance_data_to_Elasticsearch_node.md
+       17-00-00-Integrations/17-03-00-The_Grafana_insalation.md
+       17-00-00-Integrations/17-04-00-The_Beats_configuration.md
        CHANGELOG.md
