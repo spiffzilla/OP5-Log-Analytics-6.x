@@ -72,7 +72,7 @@
 
 	- Login to Grafana user interface using web browser: *http://ip:3000*
 
-	![](/media/media/image112.png)
+![](/media/media/image112.png)
  
 	- use login and password that you set in the config file.
 
